@@ -2,11 +2,13 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-   <div className="bg-background h-[60px] relative">
+   <div className="bg-background h-[60px] w-full relative">
     <nav className="text-sm">
-        <ul className=''></ul>
+        <ul className='decoration-none'>
+          
+        </ul>
     </nav>
-    <div className='absolute h-[4px] bg-lineargold w-[100vw] bottom-0  text-red-500'>hi</div>
+    <div className='absolute h-[4px] bg-lineargold w-full bottom-0'/> 
    </div>
   )
 }
