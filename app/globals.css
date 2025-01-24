@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #F8F8FF;
+  --background: #EBEDEA;
   --foreground: #171717;
   --lineargold:linear-gradient(91deg, #F7F9BF -7.52%, #DBAB67 11.96%, #8C6E3A 104.72%);
   
@@ -11,8 +11,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+ --background: #EBEDEA;
+  --foreground: #171717;
     --lineargold:linear-gradient(91deg, #F7F9BF -7.52%, #DBAB67 11.96%, #8C6E3A 104.72%);
   }
 }
