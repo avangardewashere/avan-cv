@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lineargold: "var(--lineargold)",
+      },
+      backgroundImage: {
+        lineargold: "var(--lineargold)",
       },
     },
   },
