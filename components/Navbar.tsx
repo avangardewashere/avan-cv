@@ -12,9 +12,11 @@ const Navbar = () => {
 
     <nav className="text-sm  mr-10 hidden sm:block " >
         <ul className='flex space-x-3 decoration-none font-semibold   '>
-          <li className='hover:text-blue-400'>Home</li>
-          <li className='hover:text-blue-400'>About Me</li>
+          <li className='hover:text-blue-400'><Link href={"/"}>Home</Link></li>
+          <li className='hover:text-blue-400'><Link href={"/about"}>About Me</Link></li>
           <li className='hover:text-blue-400'><Link href={"/projects"}>Projects</Link></li>
+          <li className='hover:text-blue-400'><Link href={"/skills"}>Skills</Link></li>
+          <li className='hover:text-blue-400'><Link href={"/contact"}>Contact</Link></li>
         </ul>
     </nav>
 
