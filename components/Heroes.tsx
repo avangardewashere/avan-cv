@@ -12,11 +12,11 @@ const Heroes = () => {
         I create <span className="text-sky-600">Web Site</span>
       </span>
     </div>
-    <div className="px-6 flex space-x-2 ">
-      <div className="w-10 h-10 bg-sky-600 rounded-full"></div>
-      <div className="w-10 h-10 bg-sky-600 rounded-full"></div>
-      <div className="w-10 h-10 bg-sky-600 rounded-full"></div>
-      <div className="w-10 h-10 bg-sky-600 rounded-full"></div>
+    <div className="px-6 flex space-x-3 ">
+      <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
+      <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
+      <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
+      <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
     </div>
     </>
   );

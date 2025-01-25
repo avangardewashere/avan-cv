@@ -3,7 +3,7 @@ import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 
 const KnowMe = () => {
   return (
-    <div className="flex flex-col p-6 sm:p-8">
+    <div className="flex flex-col px-6 py-4 sm:p-8">
       <h2 className="text-sky-600 text-lg text-semibold sm:mx-0 mx-auto">Get To Know me</h2>
       <Carousel
         opts={{
