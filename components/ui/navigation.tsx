@@ -1,31 +1,37 @@
 "use client";
 
+import { NavigationData } from "@/data";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Navigation = () => {
+interface NavigationProps {
+  additionalStyles?: string;
+}
+
+const Navigation = ({ additionalStyles }: NavigationProps) => {
   const pathname = usePathname();
   console.log(pathname);
 
- 
   return (
-    <nav className="text-md">
-      <ul className="flex flex-col space-y-3 decoration-none font-semibold   ">
-        <li className="hover:text-blue-400">
-          <Link href={"/"}>Home</Link>
-        </li>
-        <li className="hover:text-blue-400">
-          <Link href={"/about"}>About Me</Link>
-        </li>
-        <li className="hover:text-blue-400">
-          <Link href={"/projects"}>Projects</Link>
-        </li>
-        <li className="hover:text-blue-400">
-          <Link href={"/skills"}>Skills</Link>
-        </li>
-        <li className="hover:text-blue-400">
-          <Link href={"/contact"}>Contact</Link>
-        </li>
+    <nav>
+      <ul
+        className={cn(
+          "flex decoration-none font-semibold text-md",
+          additionalStyles
+        )}
+      >
+        {NavigationData.map((nav) => (
+          <li
+            key={nav.id}
+            className={
+              (cn("hover:text-blue-400"),
+              pathname === nav.href ? "text-sky-600" : "")
+            }
+          >
+            <Link href={nav.href}>{nav.name}</Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

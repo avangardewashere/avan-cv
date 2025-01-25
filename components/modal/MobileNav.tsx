@@ -13,7 +13,7 @@ const MobileNav = ({ children }: MobileNavProps) => {
     <Popover>
       <PopoverTrigger>{children}</PopoverTrigger>
       <PopoverContent className="w-48 absolute right-0">
-        <Navigation />
+        <Navigation additionalStyles="text-md flex flex-col space-y-3" />
       </PopoverContent>
     </Popover>
   );

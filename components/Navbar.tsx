@@ -2,6 +2,7 @@ import { AlignJustify } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import MobileNav from "./modal/MobileNav";
+import Navigation from "./ui/navigation";
 
 const Navbar = () => {
   return (
@@ -11,25 +12,9 @@ const Navbar = () => {
         <span className="text-sky-600">avancv.com</span>
       </div>
 
-      <nav className="text-sm  mr-10 hidden sm:block ">
-        <ul className="flex space-x-3 decoration-none font-semibold   ">
-          <li className="hover:text-blue-400">
-            <Link href={"/"}>Home</Link>
-          </li>
-          <li className="hover:text-blue-400">
-            <Link href={"/about"}>About Me</Link>
-          </li>
-          <li className="hover:text-blue-400">
-            <Link href={"/projects"}>Projects</Link>
-          </li>
-          <li className="hover:text-blue-400">
-            <Link href={"/skills"}>Skills</Link>
-          </li>
-          <li className="hover:text-blue-400">
-            <Link href={"/contact"}>Contact</Link>
-          </li>
-        </ul>
-      </nav>
+      <div className="mr-10 hidden sm:block ">
+        <Navigation additionalStyles="flex  space-x-3"/> 
+      </div>
 
       <div className="sm:hidden mr-4">
         <MobileNav>
