@@ -6,7 +6,7 @@ import Navigation from "./ui/navigation";
 
 const Navbar = () => {
   return (
-    <div className="bg-background h-[60px] w-full relative flex b-shadow items-center justify-between  text-[#222]">
+    <div className="bg-background h-[60px] w-full relative flex b-shadow items-center justify-between  text-[#383E4E]">
       <div className="flex space-x-2 items-center">
         <div className="logo rounded-full bg-sky-500 w-8 h-8 ml-4 sm:ml-10"></div>
         <span className="text-sky-600">avancv.com</span>

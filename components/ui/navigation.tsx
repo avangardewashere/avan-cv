@@ -17,7 +17,7 @@ const Navigation = ({ additionalStyles }: NavigationProps) => {
     <nav>
       <ul
         className={cn(
-          "flex decoration-none font-semibold text-md",
+          "flex decoration-none font-semibold text-md  text-[#383E4E]",
           additionalStyles
         )}
       >
