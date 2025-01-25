@@ -1,4 +1,6 @@
-export const NavigationData = [
+import { NavigationDataType } from "./types";
+
+export const NavigationData:NavigationDataType[] = [
     {
       id: 1,
       name: "Home",
