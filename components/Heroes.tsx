@@ -3,16 +3,16 @@ import React from "react";
 const Heroes = () => {
   return (
     <>
-    <div className="px-6 py-4 pb-2 sm:p-8 w-fit">
-      <span className="text-sm/3 sm:text-lg">Hello Welcome, My name is</span>
-      <h1 className="text-sky-600 font-bold text-4xl sm:text-5xl/ ">
+    <div className="px-6 py-4 pb-3  sm:p-8 w-fit">
+      <span className="text-[14]/3 sm:text-lg">Hello Welcome, My name is</span>
+      <h1 className="text-sky-600 font-bold text-[42px]/10 sm:text-5xl/ ">
         Avel Panaligan
       </h1>
-      <span className="text-sm/3 sm:text-lg">
+      <span className="text-[14]/3 sm:text-lg">
         I create <span className="text-sky-600">Web Site</span>
       </span>
     </div>
-    <div className="px-6 flex space-x-3 ">
+    <div className="px-6 py-[.5px] flex space-x-3 ">
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>

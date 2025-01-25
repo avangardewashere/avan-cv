@@ -3,8 +3,8 @@ import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 
 const KnowMe = () => {
   return (
-    <div className="flex flex-col px-6 py-4 sm:p-8">
-      <h2 className="text-sky-600 text-lg text-semibold ">Get To Know me</h2>
+    <div className="flex flex-col px-6  py-6 pb-5 sm:p-8">
+      <h2 className="text-sky-600 text-lg font-[500] text-[24px] ">Get To Know me</h2>
       <Carousel
         opts={{
           align: "start",
@@ -16,7 +16,7 @@ const KnowMe = () => {
         className="w-[300px] sm:w-[250px] h-[120px]  sm:h-[100px]    max-w-xs mx-auto overflow-hidden"
         
       >
-        <CarouselContent className="mt-1 p-2  bg-sky-300/20 space-y-2 ">
+        <CarouselContent className="my-2  space-y-2 ">
           <CarouselItem className="pt-1 min-h-12  bg-slate-300 rounded-md">
           meow
           </CarouselItem>
