@@ -4,7 +4,7 @@ import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 const KnowMe = () => {
   return (
     <div className="flex flex-col px-6 py-4 sm:p-8">
-      <h2 className="text-sky-600 text-lg text-semibold sm:mx-0 mx-auto">Get To Know me</h2>
+      <h2 className="text-sky-600 text-lg text-semibold ">Get To Know me</h2>
       <Carousel
         opts={{
           align: "start",
@@ -17,14 +17,14 @@ const KnowMe = () => {
         
       >
         <CarouselContent className="mt-1 p-2  bg-sky-300/20 space-y-2 ">
-          <CarouselItem className="pt-1 md:basis-1/2 basis-1/3  bg-slate-300 rounded-md">
+          <CarouselItem className="pt-1 min-h-12  bg-slate-300 rounded-md">
           meow
           </CarouselItem>
-          <CarouselItem className="pt-1 md:basis-1/2 basis-1/3  bg-slate-300 rounded-md">Hi</CarouselItem>
-          <CarouselItem className="pt-1 md:basis-1/2 basis-1/3  bg-slate-300 rounded-md">Hello</CarouselItem>
-          <CarouselItem className="pt-1 md:basis-1/2 basis-1/3  bg-slate-300 rounded-md">thank you</CarouselItem>
-          <CarouselItem className="pt-1 md:basis-1/2 basis-1/3  bg-slate-300 rounded-md">goodbye</CarouselItem>
-          <CarouselItem className="pt-1 md:basis-1/2 basis-1/3  bg-slate-300 rounded-md">scrap</CarouselItem>
+          <CarouselItem className="pt-1 min-h-12  bg-slate-300 rounded-md">Hi</CarouselItem>
+          <CarouselItem className="pt-1 min-h-12  bg-slate-300 rounded-md">Hello</CarouselItem>
+          <CarouselItem className="pt-1 min-h-12  bg-slate-300 rounded-md">thank you</CarouselItem>
+          <CarouselItem className="pt-1 min-h-12  bg-slate-300 rounded-md">goodbye</CarouselItem>
+          <CarouselItem className="pt-1 min-h-12  bg-slate-300 rounded-md">scrap</CarouselItem>
         </CarouselContent>
       </Carousel>
     </div>

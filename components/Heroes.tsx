@@ -3,12 +3,12 @@ import React from "react";
 const Heroes = () => {
   return (
     <>
-    <div className="px-6 py-4 sm:p-8 w-fit">
-      <span className="text-sm/6 sm:text-lg">Hello Welcome, My name is</span>
+    <div className="px-6 py-4 pb-2 sm:p-8 w-fit">
+      <span className="text-sm/3 sm:text-lg">Hello Welcome, My name is</span>
       <h1 className="text-sky-600 font-bold text-4xl sm:text-5xl/ ">
         Avel Panaligan
       </h1>
-      <span className="text-sm/1 sm:text-lg">
+      <span className="text-sm/3 sm:text-lg">
         I create <span className="text-sky-600">Web Site</span>
       </span>
     </div>
