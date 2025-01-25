@@ -3,8 +3,8 @@ import React from 'react'
 
 const ProjectsCarousel = () => {
   return (
-    <div>
-     <Image src={"/images/foodie-pal.png"} height={180} width={300} alt="foodie-pal" className='object-cover rounded-md border border-sky-600 border-t-2'/> 
+    <div className='flex items-center justify-center w-full'>
+     <Image src={"/images/foodie-pal.png"} height={180} width={280} alt="foodie-pal" className='object-cover rounded-md border border-t-4 border-amber-500 '/> 
     </div>
   )
 }
