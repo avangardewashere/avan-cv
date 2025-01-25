@@ -13,7 +13,7 @@ const KnowMe = () => {
         
         }}
         orientation="vertical"
-        className="w-[300px] sm:w-[250px] h-[150px]  sm:h-[100px]    max-w-xs mx-auto overflow-hidden"
+        className="w-[300px] sm:w-[250px] h-[120px]  sm:h-[100px]    max-w-xs mx-auto overflow-hidden"
         
       >
         <CarouselContent className="mt-1 p-2  bg-sky-300/20 space-y-2 ">
