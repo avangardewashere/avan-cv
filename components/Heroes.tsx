@@ -7,7 +7,9 @@ const Heroes = () => {
       <h1 className="text-sky-600 font-bold text-4xl sm:text-5xl/ ">
         Avel Panaligan
       </h1>
-      <span className="text-sm/1 sm:text-lg">I create <span className="text-sky-600">Web Site</span></span>
+      <span className="text-sm/1 sm:text-lg">
+        I create <span className="text-sky-600">Web Site</span>
+      </span>
     </div>
   );
 };
