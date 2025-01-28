@@ -5,7 +5,7 @@ import React from "react";
 const Heroes = () => {
   return (
     <div className="flex flex-col">
-      <div className="px-6 py-4 pb-3  sm:p-8 w-fit">
+      <div className="px-6 py-4 pb-3  sm:p-8 w-fit md:px-12 ">
         <span className="text-[14]/3 sm:text-lg md:text-2xl">
           Hello Welcome, My name is
         </span>
@@ -16,7 +16,7 @@ const Heroes = () => {
           I create <span className="text-sky-600">Web Site</span>
         </span>
       </div>
-      <div className="px-6 py-[.5px] flex space-x-3 sm:px-8 ">
+      <div className="px-6 py-[.5px] flex space-x-3 sm:px-8  md:px-12 ">
         {SkillData?.map((skill) => (
           <div className="w-8 h-8  rounded-full">
             <Image
