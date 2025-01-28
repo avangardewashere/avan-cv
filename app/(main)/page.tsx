@@ -10,7 +10,7 @@ export default function Home() {
         <Heroes />
         <KnowMe />
       </div>
-      <ProjectsCarousel />
+      {/* <ProjectsCarousel /> */}
     </>
   );
 }

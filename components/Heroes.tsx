@@ -12,7 +12,7 @@ const Heroes = () => {
         I create <span className="text-sky-600">Web Site</span>
       </span>
     </div>
-    <div className="px-6 py-[.5px] flex space-x-3 ">
+    <div className="px-6 py-[.5px] flex space-x-3 sm:px-8 ">
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
