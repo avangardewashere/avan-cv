@@ -1,8 +1,8 @@
 import { NavigationDataType, SkillDataIconsType } from "./types";
 import ReactIcon from "@/public/images/icons/reactjs.png"
-import NextIcon from "@/public/images/icons/reactjs.png"
-import TailwindIcon from "@/public/images/icons/reactjs.png"
-import WpIcon from "@/public/images/icons/reactjs.png"
+import NextIcon from "@/public/images/icons/nextjs.png"
+import TailwindIcon from "@/public/images/icons/tailwind-css-icon.png"
+import WpIcon from "@/public/images/icons/wordpress.png"
 export const NavigationData: NavigationDataType[] = [
   {
     id: 1,
@@ -40,14 +40,7 @@ export const SkillData: SkillDataIconsType[] = [
     src: ReactIcon,
     id: 11,
   },
-  {
-    name: "Next",
-    href: "",
-    active: false,
-    design: "",
-    src: NextIcon,
-    id: 11,
-  },
+
   {
     name: "Next",
     href: "",
