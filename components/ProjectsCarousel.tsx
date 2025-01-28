@@ -10,7 +10,7 @@ const ProjectsCarousel = () => {
           fill
           alt="foodie-pal"
           className="  object-cover rounded-md border-4 border-sky-500 "
-        />{" "}
+        /> 
       </div>
     </div>
   );
