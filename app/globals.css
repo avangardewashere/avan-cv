@@ -94,3 +94,7 @@ body {
   }
   
 }
+
+.adm-swiper-item{
+  /* height:unset !important */
+}
