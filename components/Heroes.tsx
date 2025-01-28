@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Heroes = () => {
@@ -13,7 +14,9 @@ const Heroes = () => {
       </span>
     </div>
     <div className="px-6 py-[.5px] flex space-x-3 sm:px-8 ">
-      <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
+      <div className="w-8 h-8 bg-sky-600 rounded-full">
+        {/* <Image src={}/>  */}
+      </div>
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
       <div className="w-8 h-8 bg-sky-600 rounded-full"></div>
