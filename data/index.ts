@@ -1,8 +1,9 @@
-import { NavigationDataType, SkillDataIconsType } from "./types";
+import { KnowMeDataType, NavigationDataType, SkillDataIconsType } from "./types";
 import ReactIcon from "@/public/images/icons/reactjs.png"
 import NextIcon from "@/public/images/icons/nextjs.png"
 import TailwindIcon from "@/public/images/icons/tailwind-css-icon.png"
 import WpIcon from "@/public/images/icons/wordpress.png"
+import gitHubIcon from "@/public/images/icons/github.png"
 export const NavigationData: NavigationDataType[] = [
   {
     id: 1,
@@ -67,3 +68,14 @@ export const SkillData: SkillDataIconsType[] = [
     id: 14,
   },
 ];
+
+export const KnowMeData:KnowMeDataType[] =[
+  {
+    title:"Visit my Github Profile",
+    id:21,
+    href:"https://github.com/avangardewashere",
+    b1color:"#6D8AE3",
+    b2color:"#427DCA",
+    image:gitHubIcon
+  }
+]
