@@ -24,12 +24,12 @@ const Navigation = ({ additionalStyles }: NavigationProps) => {
         {NavigationData.map((nav) => (
           <li
             key={nav.id}
-            className={
-              (cn("!hover:text-blue-400"),
-              pathname === nav.href ? "!text-sky-600" : "!text-[#383E4E]")
-            }
+          
           >
-            <Link href={nav.href}>{nav.name}</Link>
+            <Link   className={
+              (cn("hover:!text-blue-400"),
+              pathname === nav.href ? "!text-sky-600" : "text-[#383E4E]")
+            } href={nav.href}>{nav.name}</Link>
           </li>
         ))}
       </ul>
