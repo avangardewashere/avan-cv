@@ -1,3 +1,4 @@
+import KnowMeCard from "@/components/cards/KnowMeCard";
 import Heroes from "@/components/Heroes";
 import KnowMe from "@/components/KnowMe";
 import ProjectsCarousel from "@/components/ProjectsCarousel";
@@ -10,7 +11,12 @@ export default function Home() {
         <Heroes />
         <KnowMe />
       </div>
-     <ProjectsCarousel />  
+      <div className="flex items-center justify-center w-full">
+        <div className="w-60">
+          <KnowMeCard />
+        </div>
+      </div>
+      {/* <ProjectsCarousel />   */}
     </>
   );
 }

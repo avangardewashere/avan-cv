@@ -1,17 +1,20 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const KnowMeCard = () => {
   return (
-    <div className="pt-1 min-h-12  bg-slate-300 rounded-md">
-      <div></div>
-      <Link href="/">
+    <>
+    <Link href="/">
+      <div className="pt-1 min-h-12 border flex space-x-2  items-center justify-start pl-4 border-amber-200 bg-slate-300 rounded-md">
+        <Image src={"/images/icons/nextjs.png"} alt="" width={20} height={20} />
         <div className="cardContent">
           {/* logo */}
-          {/* name */}
+          <span className=" font-semibold "> Visit my Github Profile</span>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
+    </>
   );
 };
 

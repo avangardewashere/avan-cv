@@ -4,7 +4,7 @@ import React from "react";
 import { Swiper } from "antd-mobile";
 const KnowMe = () => {
   return (
-    <div className="flex flex-col px-6 md:w-[320px] py-6 pb-5 sm:p-6 sm:py-4  ">
+    <div className="flex flex-col space-y-4 px-6 md:w-[320px] py-6 pb-5 sm:p-6 sm:py-4  ">
       <h2 className="text-sky-600 text-lg font-[500] text-[24px] ">
         Get to know me
       </h2>
