@@ -4,14 +4,14 @@ import React from "react";
 import { Swiper } from "antd-mobile";
 const KnowMe = () => {
   return (
-    <div className="flex flex-col px-6  py-6 pb-5 sm:p-8">
+    <div className="flex flex-col px-6 md:w-[350px] py-6 pb-5 sm:p-8">
       <h2 className="text-sky-600 text-lg font-[500] text-[24px] ">
-        Get To Know me
+        Get to know me
       </h2>
       <Swiper
         indicator={false}
         direction="vertical"
-        className="w-[300px] sm:w-[250px] !h-[120px]  !sm:h-[100px]   !md:h-[170px]  max-w-xs mx-auto overflow-hidden"
+        className="w-[300px] sm:w-[350px] md:w-[400px] !h-[120px]  !sm:h-[100px]   !md:h-[170px]  max-w-xs mx-auto overflow-hidden"
         slideSize={50}
         autoplay
         loop
