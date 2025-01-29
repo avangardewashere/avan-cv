@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-center w-full">
         <div className="w-60">
-          <KnowMeCard />
+          {/* <KnowMeCard /> */}
         </div>
       </div>
       {/* <ProjectsCarousel />   */}
