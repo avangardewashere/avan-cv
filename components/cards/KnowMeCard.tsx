@@ -1,10 +1,18 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
 
+interface KnowMeProps {
+  title: string;
+  id: number;
+  href: string;
+  b1color: string;
+  b2color: string;
+  image?: string | StaticImageData;
+}
 
-
-const KnowMeCard = () => {
+const KnowMeCard = (props: KnowMeProps) => {
+  const { title, id, href, b1color, b2color, image } = props;
   return (
     <>
       <Link href="/">
@@ -20,7 +28,10 @@ const KnowMeCard = () => {
             // style={{filter:"brightness(1000%)"}}
           />
           <div className="cardContent">
-            <span className=" font-semibold text-white"> Visit my Github Profile</span>
+            <span className=" font-semibold text-white">
+              {" "}
+              Visit my Github Profile
+            </span>
           </div>
         </div>
       </Link>
