@@ -12,16 +12,20 @@ interface KnowMeProps {
 }
 
 const KnowMeCard = (props: KnowMeProps) => {
-  const { title, id, href, b1color, b2color, image } = props;
+  const { title, href, b1color, b2color, image } = props;
   return (
     <>
-      <Link href="/">
+      <Link href={href ?? "/"}>
         <div
-          style={{ background: "linear-gradient(120deg,#6D8AE3,#427DCA)" }}
+          style={{
+            background: `linear-gradient(120deg,${b2color ?? "#6D8AE3"},${
+              b1color ?? "#427DCA"
+            })`,
+          }}
           className="pt-1 min-h-12 border flex space-x-2  items-center justify-start pl-4 border-amber-200 bg-slate-300 rounded-lg"
         >
           <Image
-            src={"/images/icons/github.png"}
+            src={image ?? "/images/icons/github.png"}
             alt={"image"}
             width={20}
             height={20}
@@ -29,8 +33,7 @@ const KnowMeCard = (props: KnowMeProps) => {
           />
           <div className="cardContent">
             <span className=" font-semibold text-white">
-              {" "}
-              Visit my Github Profile
+              {title ?? "Visit my Github Profile"}
             </span>
           </div>
         </div>
