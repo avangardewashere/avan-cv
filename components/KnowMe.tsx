@@ -6,21 +6,21 @@ import KnowMeCard from "./cards/KnowMeCard";
 import { KnowMeData } from "@/data";
 const KnowMe = () => {
   return (
-    <div className="flex flex-col space-y-4 px-6 md:w-[320px] py-6 pb-5 sm:p-6 sm:py-4  ">
-      <h2 className="text-sky-600 text-lg font-[500] text-[24px] ">
+    <div className="flex flex-col  space-y-1  sm:space-y-2 px-6 md:w-[320px] py-6 pb-5 sm:p-6 sm:py-4  ">
+      <h2 className="px-4 sm:px-0 text-sky-600 text-lg font-[500] text-[24px] ">
         Get to know me
       </h2>
       <Swiper
         indicator={false}
         direction="vertical"
-        className="!space-y-3 !flex !flex-col !gap-20 w-[300px] sm:w-[300px] md:w-[360px] !h-[120px]  sm:!h-[160px] md:!h-[190px]   max-w-xs mx-auto overflow-hidden"
+        className="!space-y-3 !flex !flex-col !gap-20 !w-[300px] sm:w-[300px] md:w-[360px] !h-[160px]  sm:!h-[160px] md:!h-[190px]    max-w-xs mx-auto overflow-hidden"
         slideSize={33}
         autoplay
         loop={true}
         autoplayInterval={5000}
       >
         {KnowMeData?.map((info) => (
-          <Swiper.Item className=" !h-12 mb-2    rounded-md bg-slate-300">
+          <Swiper.Item className=" !h-12 mb-2   rounded-md bg-slate-300">
             <KnowMeCard
               id={info.id}
               href={info.href}

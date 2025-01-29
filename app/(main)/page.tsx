@@ -16,7 +16,7 @@ export default function Home() {
           {/* <KnowMeCard /> */}
         </div>
       </div>
-      {/* <ProjectsCarousel />   */}
+      <ProjectsCarousel />  
     </>
   );
 }
