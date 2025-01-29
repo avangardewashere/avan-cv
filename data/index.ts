@@ -110,4 +110,12 @@ export const KnowMeData:KnowMeDataType[] =[
     b2color:"#42B1CA",
     image:gitHubIcon
   },
+  {
+    title:"See my previous projects",
+    id:23,
+    href:"/projects",
+    b1color:"#6DE3DD",
+    b2color:"#42CAB1",
+    image:gitHubIcon
+  },
 ]

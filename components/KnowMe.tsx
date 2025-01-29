@@ -17,7 +17,7 @@ const KnowMe = () => {
         slideSize={33}
         autoplay
         loop={true}
-        autoplayInterval={3000}
+        autoplayInterval={5000}
       >
         {KnowMeData?.map((info) => (
           <Swiper.Item className=" !h-12 mb-2    rounded-md bg-slate-300">
