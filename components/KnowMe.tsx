@@ -2,6 +2,8 @@
 import React from "react";
 
 import { Swiper } from "antd-mobile";
+import KnowMeCard from "./cards/KnowMeCard";
+import { KnowMeData } from "@/data";
 const KnowMe = () => {
   return (
     <div className="flex flex-col space-y-4 px-6 md:w-[320px] py-6 pb-5 sm:p-6 sm:py-4  ">
@@ -17,24 +19,18 @@ const KnowMe = () => {
         loop={true}
         autoplayInterval={3000}
       >
-        <Swiper.Item   className=" !h-12 mb-2    rounded-md bg-slate-300">
-          <div className="know-me-card  rounded-md">meow 0</div>
-        </Swiper.Item>
-        <Swiper.Item className="rounded-md bg-pink-300  !h-12 mb-2">
-          <div className="know-me-card  rounded-md">meow</div>
-        </Swiper.Item>
-        <Swiper.Item className="rounded-md bg-blue-300 !h-12 mb-2">
-          <div className="know-me-card ">meow 4</div>
-        </Swiper.Item>
-        <Swiper.Item className="rounded-md bg-blue-300 !h-12 mb-2">
-          <div className="know-me-card ">meow 2</div>
-        </Swiper.Item>
-        <Swiper.Item className="rounded-md bg-gray-300 !h-12 mb-2">
-          <div className="know-me-card ">meow 2</div>
-        </Swiper.Item>
-        <Swiper.Item className="rounded-md bg-pink-300 !h-12 mb-2">
-          <div className="know-me-card ">meow 2</div>
-        </Swiper.Item>
+        {KnowMeData?.map((info) => (
+          <Swiper.Item className=" !h-12 mb-2    rounded-md bg-slate-300">
+            <KnowMeCard
+              id={info.id}
+              href={info.href}
+              b1color={info.b1color}
+              b2color={info.b2color}
+              title={info.title}
+              image={info.image}
+            />
+          </Swiper.Item>
+        ))}
       </Swiper>
     </div>
   );
