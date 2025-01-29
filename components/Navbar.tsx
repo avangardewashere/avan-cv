@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
 
       <div className="mr-10 hidden sm:block ">
-        <Navigation additionalStyles="flex  space-x-3"/> 
+        <Navigation additionalStyles="flex space-x-3"/> 
       </div>
 
       <div className="sm:hidden mr-4">

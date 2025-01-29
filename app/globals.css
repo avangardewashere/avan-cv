@@ -98,3 +98,7 @@ body {
 .adm-swiper-item{
   /* height:unset !important */
 }
+
+a{
+  color:unset !important
+}

@@ -17,7 +17,7 @@ const Navigation = ({ additionalStyles }: NavigationProps) => {
     <nav>
       <ul
         className={cn(
-          "flex decoration-none font-semibold text-md  text-[#383E4E]",
+          "flex decoration-none !font-semibold !text-md  !text-[#383E4E]",
           additionalStyles
         )}
       >
@@ -25,8 +25,8 @@ const Navigation = ({ additionalStyles }: NavigationProps) => {
           <li
             key={nav.id}
             className={
-              (cn("hover:text-blue-400"),
-              pathname === nav.href ? "text-sky-600" : "")
+              (cn("!hover:text-blue-400"),
+              pathname === nav.href ? "!text-sky-600" : "!text-[#383E4E]")
             }
           >
             <Link href={nav.href}>{nav.name}</Link>
