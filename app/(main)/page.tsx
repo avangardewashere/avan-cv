@@ -1,6 +1,7 @@
 import KnowMeCard from "@/components/cards/KnowMeCard";
 import Heroes from "@/components/Heroes";
 import KnowMe from "@/components/KnowMe";
+import AboutMe from "@/components/overview/AboutMe";
 import ProjectsCarousel from "@/components/ProjectsCarousel";
 import Image from "next/image";
 
@@ -12,11 +13,10 @@ export default function Home() {
         <KnowMe />
       </div>
       <div className="flex items-center justify-center w-full">
-        <div className="w-60">
-          {/* <KnowMeCard /> */}
-        </div>
+        <div className="w-60">{/* <KnowMeCard /> */}</div>
       </div>
-      <ProjectsCarousel />  
+      <ProjectsCarousel />
+      <AboutMe />
     </>
   );
 }
