@@ -24,7 +24,7 @@ const AboutMe = () => {
       </div>
       <div className="flex w-full px-20 text-base">
         <div>
-          <p className="border-l-2 px-1 min-h-[300ox] mb-10  w-[50%] m-auto indent-10 text-justify ">
+          <p className="border-l-2 pl-4 min-h-[300ox] mb-10  w-[50%] m-auto indent-10 text-justify ">
             Born in Candelaria, Quezon, I’ve always danced between art and
             logic. While studying Computer Science in 2019, I started as a
             graphic designer but soon found myself drawn to code—first tinkering
