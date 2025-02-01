@@ -35,8 +35,8 @@ const AboutMe = () => {
             functional code.
           </p>
 
-          <p className="min-h-[300ox]   w-[50%] m-auto indent-10 text-justify ">
-            {" "}
+          <p className="border-l-2 pl-4  min-h-[300ox]   w-[50%] m-auto indent-10 text-justify ">
+        
             Today, I build digital experiences where creativity meets
             problem-solving. Every project is a chance to learn, reinvent, and
             bridge imagination with functionality. And yes, I still eat code for
