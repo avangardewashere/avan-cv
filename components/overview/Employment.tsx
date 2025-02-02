@@ -14,10 +14,12 @@ const Employment = () => {
           <div className="font-semibold text-base">Front End Dev</div>
           <div className="text-sm text-slate-500">(2024-2025)</div>
         </div>
-        
+
       </div>
       <div>
-        <span>employemnet</span>
+        <div className="w-[70%] h-[200px]">
+            
+        </div>
       </div>
     </div>
   );
