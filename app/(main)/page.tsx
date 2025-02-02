@@ -2,6 +2,7 @@ import KnowMeCard from "@/components/cards/KnowMeCard";
 import Heroes from "@/components/Heroes";
 import KnowMe from "@/components/KnowMe";
 import AboutMe from "@/components/overview/AboutMe";
+import Employment from "@/components/overview/Employment";
 import Projects from "@/components/overview/Projects";
 import ProjectsCarousel from "@/components/ProjectsCarousel";
 import Image from "next/image";
@@ -18,7 +19,7 @@ export default function Home() {
       </div>
       <ProjectsCarousel />
       <AboutMe />
-      
+      <Employment /> 
       <Projects/> 
     </>
   );
