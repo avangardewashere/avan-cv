@@ -3,11 +3,11 @@ import ProjectCards from "../cards/ProjectCards";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="flex flex-col sm:flex-row p-2 space-x-2 ">
       <span>Project section</span>
-      <span>
+      
         <ProjectCards />
-      </span>
+
     </div>
   );
 };
