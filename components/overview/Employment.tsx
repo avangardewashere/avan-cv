@@ -3,7 +3,13 @@ import React from 'react'
 const Employment = () => {
   return (
     <div className='flex'>
-      <span>employemnet</span>
+      <div>
+        <div className='flex border items-center justify-center '>
+            <div className='font-semibold'>Front End Developer</div>
+
+        </div>
+      </div>
+      <div><span>employemnet</span></div>
     </div>
   )
 }
