@@ -22,6 +22,9 @@ const Employment = () => {
               <div>Positon</div>
               <div>year</div>
             </div>
+            <div>
+                {/* Image here */}
+            </div>
           </div>
           <div>
             <div>Comapny Name</div>
