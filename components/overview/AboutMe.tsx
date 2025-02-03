@@ -44,7 +44,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="w-[50%]">
-            hi
+            <Image src={"/images/items/coffeee-about.png"} alt="about" /> 
         </div>
       </div>
     </div>
