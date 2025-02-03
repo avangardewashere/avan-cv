@@ -44,7 +44,8 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="w-[50%]">
-            <Image src={"/images/items/coffeee-about.png"} alt="about" /> 
+          <div className="image-container relative">
+            <Image  className=" absolute" fill src={"/images/items/coffeee-about.png"} alt="about" /> </div>
         </div>
       </div>
     </div>
