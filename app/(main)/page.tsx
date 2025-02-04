@@ -15,7 +15,10 @@ export default function Home() {
         <KnowMe />
       </div>
       <div className="flex items-center justify-center w-full">
-        <div className="w-60">{/* <KnowMeCard /> */}</div>
+        <div className="w-60"> 
+
+          
+        </div>
       </div>
       <ProjectsCarousel />
       <AboutMe />
